@@ -61,3 +61,56 @@ nav > ul>li>a:hover{
     background-color: blueviolet;
     margin: 10px;
 }
+
+section>h3{
+    color: rgb(109, 168, 232);
+    margin: 20px;
+    font-size: 24px;
+    font-style: italic;
+}
+.about {
+    text-align: center;
+    padding: 20px;
+    margin: 20px;
+}
+
+.container{
+    display: flex;
+    justify-content:space-between ;
+    align-items: center;
+}
+p {
+    font-size: 18px;
+    word-spacing: 0.5;
+    }
+.left > span> ul {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 20px;
+}
+.left > span> ul>li{
+    list-style: none;
+    margin: 10px;
+}
+.right> img{
+    height: 500px;
+    width: 500px;
+    border-radius: 10px;
+}
+section{
+    text-align: center;
+    padding: 20px;
+}
+.card{
+    border: 1px solid rgb(109, 168, 232);
+    margin: 10px;
+    border-radius: 9px;
+    padding: 3px;
+}
+.card > h4 {
+    font-size: 24px;
+}
+.card > p {
+    font-size: 18px;
+}
