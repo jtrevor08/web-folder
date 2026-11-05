@@ -33,6 +33,9 @@ nav > ul>li>a:hover{
     margin:5px;
 
 }
+body {
+    background-color: white;
+}
 .hero {
     background-image:linear-gradient(rgba(127, 127, 127, 0.5),rgb(0,0,0,0.5)), url(/images/toothless-how-to-train-your-dragon-n8-3849582857.jpg);
     background-position: center;
