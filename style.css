@@ -1,89 +1,18 @@
-h1 {
-    border-style: dashed;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 20px;
-    margin: 0px;
-    color: rgb(27, 72, 184);
-    text-align: center;
-    font-size: 40px;
-    font-weight: 90px;
-    background-color: rgb(191, 215, 245);
-    font-style: italic;
-    text-decoration: double;
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
 }
 
-h2 {
-    text-align: left;
-    padding-left: 20px;
-    font-size: 30px;
-    margin: 0px;
-}
-nav > ul > li {
-    display: inline-block;
-    text-align: right;
-    font-size: 20px;
-    margin-top: 0px;
-    margin: 10px;
-    color: white;
-    padding: 10px;
-}
-nav > ul > li >a{
-    text-decoration: none;
-}
-nav > ul > li >a:hover{
-    color: white;
-    margin-right: 7px;
-}
-.kali {
-    width: 700px;
-    border-top-left-radius: 50px;
-    border-bottom-left-radius: 50px;
-    margin-left: 30px;
-    margin-right: 30px;
+header{
     display: flex;
-    flex-direction: column;
-    align-items: end;
+    justify-content: space-between;
+    align-items: center;
+    background-color:rgb(103, 170, 242)
 }
 
-.hobby {
-    border-style: dashed;
-    border-color: black;
-    border-width: 2px;
-    border-radius: 20px;
-    margin-top: 20px;
-    background-color: rgb(191, 215, 245);
-    background-size: cover;
-    text-decoration: none;
-    margin-bottom: 10px;
-    padding: 5px;
-    font-style: italic;
-    margin-right: 100px;
-    text-align: left;
+nav > ul {
     display: flex;
-    flex-direction: column;
-}
-h3 {
-    text-align: left;
-    font-style: italic;
-    margin-top: 10px;
-    padding: 2px;
-    margin-left: 20px;
-}
-.sent {
-    margin-left: 20px;
-}
-button {
-    color: rgb(0, 0, 0);
-    margin: 7px;
-    padding: 5px;
-    border-radius: 50px;
-    background-color: white;
-}
-body {
-    background-color: white;
-}
-.btn:hover{
-    background-color: rgb(208, 112, 249);
-    margin-bottom: 10px;
+
 }
