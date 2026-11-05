@@ -9,10 +9,55 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color:rgb(103, 170, 242)
+    background-color:rgb(109, 168, 232)
 }
-
+header > h1{
+    color: white;
+}
+.k{
+    color: blueviolet;
+}
 nav > ul {
     display: flex;
+}
+nav > ul >li{
+    margin: 15px;
+    list-style: none;
+}
+nav > ul>li>a{
+    text-decoration: none;
+    color: white;
+}
+nav > ul>li>a:hover{
+    color: blueviolet;
+    margin:5px;
 
+}
+.hero {
+    background-image: url(/images/toothless-how-to-train-your-dragon-n8-3849582857.jpg);
+    background-position: center;
+    background-size: cover;
+    height: 70vh;
+    text-align: center;   
+    padding: 7rem;
+}
+.hero > h2{
+     color: white;
+     font-size: 50px;
+}
+.hero > p{
+    color: white;
+}
+.btn{
+    margin: 5px;
+    padding: 5px;
+    background-color: rgb(109, 168, 232);
+    border-radius: 7px;
+    width: 70px;
+    color: white;
+    margin-top: 3rem;
+}
+.btn:hover{
+    background-color: blueviolet;
+    margin: 10px;
 }
