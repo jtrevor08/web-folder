@@ -118,6 +118,18 @@ section{
     font-style: italic;
 }
 
+.konta > ul > li{
+    list-style: none;
+    text-align: right;
+    margin: 10px;
+    text-decoration: none;
+}
 
+.konta {
+    border: 1px dashed black;
+    background-color:rgb(193, 150, 233);
+    border-radius: 10px;
+    font-size: 30px;
+}
 
 
