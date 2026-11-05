@@ -115,8 +115,9 @@ section{
 }
 .card > p {
     font-size: 18px;
+    font-style: italic;
 }
 
-.heada {
-    color: rgb(109, 168, 232);
-}
+
+
+
