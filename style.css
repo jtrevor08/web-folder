@@ -123,7 +123,7 @@ section{
 
 .konta > ul > li{
     list-style: none;
-    text-align: right;
+    text-align: left;
     margin: 10px;
     text-decoration: none;
 }
@@ -138,15 +138,20 @@ section{
 label{
     
 }
-input{
+.enta{
     margin: 10px;
     padding: 2px;
-    content: icon;
 }
 textarea {
     resize:none;
-
-
 }
-
+form{
+    display: flex;
+    align-items: left;
+}
+.feet{
+    font-style: italic;
+    font-size: 15px;
+    
+}
 
