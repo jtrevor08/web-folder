@@ -135,4 +135,18 @@ section{
     font-size: 30px;
 }
 
+label{
+    
+}
+input{
+    margin: 10px;
+    padding: 2px;
+    content: icon;
+}
+textarea {
+    resize:none;
+
+
+}
+
 
